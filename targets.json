@@ -1,0 +1,41 @@
+{
+  "_comment": "targets.json — Top-mode target configuration for the Digital Asset Protection Pipeline.",
+  "_comment2": "Reddit: subreddits browsed by 'top' posts. Twitter: accounts whose media timelines are scraped.",
+
+  "reddit": {
+    "subreddits": [
+      "pics",
+      "videos",
+      "gifs",
+      "memes",
+      "funny",
+      "sports",
+      "news",
+      "worldnews",
+      "technology",
+      "science",
+      "art",
+      "photoshopbattles",
+      "interestingasfuck",
+      "aww",
+      "gaming"
+    ],
+    "sort": "top",
+    "time_filter": "day"
+  },
+
+  "twitter": {
+    "accounts": [
+      "nytimes",
+      "BBCSport",
+      "espn",
+      "Reuters",
+      "NASA",
+      "NatGeo",
+      "AP",
+      "Forbes",
+      "TIME",
+      "TheEconomist"
+    ]
+  }
+}

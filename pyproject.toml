@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "crawler-pipeline"
+version = "0.1.0"
+description = "Digital Asset Protection — Crawler Pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.9",
+    "asyncpraw>=7.7",
+    "opencv-python>=4.9",
+    "numpy>=1.26",
+    "python-dotenv>=1.0",
+    "playwright>=1.42",
+]
+
+[project.scripts]
+crawler-pipeline = "crawler_pipeline.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

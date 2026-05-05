@@ -1,0 +1,22 @@
+# ── Core async ────────────────────────────────────────────────────────────────
+aiohttp>=3.9.0
+asyncpraw>=7.7.1           # Async Reddit API wrapper
+
+# ── Twitter API ───────────────────────────────────────────────────────────────
+# Used by TwitterAPIClient via raw aiohttp requests — no extra library needed.
+# (Optional: tweepy>=4.14.0 for OAuth1 if you need write access)
+
+# ── Playwright (API fallback scraper) ─────────────────────────────────────────
+playwright>=1.42.0
+# After install, run: playwright install chromium
+
+# ── Media processing ──────────────────────────────────────────────────────────
+opencv-python>=4.9.0       # cv2 image/video processing
+numpy>=1.26.0
+
+# ── Config / Environment ──────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Optional / dev ────────────────────────────────────────────────────────────
+# httpx>=0.27.0             # alternative HTTP client (not required)
+# redis>=5.0.0              # uncomment when upgrading queue to Redis
