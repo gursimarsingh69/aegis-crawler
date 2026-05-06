@@ -4,21 +4,7 @@
 
   "reddit": {
     "subreddits": [
-      "pics",
-      "videos",
-      "gifs",
-      "memes",
-      "funny",
-      "sports",
-      "news",
-      "worldnews",
-      "technology",
-      "science",
-      "art",
-      "photoshopbattles",
-      "interestingasfuck",
-      "aww",
-      "gaming"
+      "spotsscrap"
     ],
     "sort": "top",
     "time_filter": "day"
@@ -26,16 +12,7 @@
 
   "twitter": {
     "accounts": [
-      "nytimes",
-      "BBCSport",
-      "espn",
-      "Reuters",
-      "NASA",
-      "NatGeo",
-      "AP",
-      "Forbes",
-      "TIME",
-      "TheEconomist"
+      "scrapetestacc"
     ]
   }
 }
